@@ -1,0 +1,170 @@
+*{font-family: 'Tangerine', arial, helvetica;
+  color: white;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {color: #B88A00;
+	word-spacing: 4px;
+	font-size: 60px;
+}
+
+body {background-image: url(img.jpeg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  font-size: 19px;
+	  color: white;
+	  line-height: 45px;
+	  letter-spacing: 0.08em;
+	  word-spacing: 3px;
+}
+
+.wrapper {
+	border: solid red 3px;
+	width: 100%;
+	padding: 0px;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 4em;
+	list-style-type: none; 
+}
+
+/* Change the link color on hover */
+nav ul li a:hover {
+    background-color: #555;
+    color: white;
+    padding: 33px;
+}
+
+#slogan {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+#mission {
+    margin: 0 auto;
+    width: 40%;
+    border: 1px solid pink;
+}
+
+header {
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #B77171;
+	border: 1px black solid;
+	padding: 20px;
+	letter-spacing: .15em;
+	width: 100%;
+}
+
+div {
+	background-color: #FFE2B8
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: #8FBC8F;
+	border: 3px yellow solid;
+	padding: 50px;
+}
+
+#leftcolumn{
+	background-color: #E9967A;
+	border:  1px black solid;
+	float: left;
+	width: 37%;
+	position: relative;
+	height: 600px;
+}
+
+#rightcolumn {
+	background-color: #8FBC8F;
+	border: 5px black solid;
+	float: right;
+	width: 60%;
+	position: relative;
+	height: 600px;
+}
+
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+#footer {
+	text-align: center;
+	background-color: #ccc;
+	clear: both;
+	width: 100%;
+	margin: 0px 0px;
+	border: solid red 1px;
+}
+
+#rightcolumn{
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	#leftcolumn{
+		display: block;
+		float: none;
+		width: 100%;	
+	}
+
+	ul.topnav li.icon {display: inline-block;float: right;}
+
+@media only screen and (min-width: 640px) {
+	nav {
+		border: solid red 3px;
+	}
+	.wrapper{
+		border: solid orange 3px;
+
+	}
+	
+	#rightcolumn{
+		display: inline;
+		float: right;
+		width: 60%;
+	}
+
+	#leftcolumn{
+		display: inline;
+		float: left;
+		width:34%;
+	}
+
+	 ul.topnav li.icon {
+    display: none;
+  }
+
+
+}
+}
+@media only screen and (min-width: 800px) {
+	.wrapper{
+		border: solid blue 3px;
+		text-align: center;
+	}
+	
+}
+
+@media only screen and (min-width: 1280px) {
+	.wrapper{
+		border: solid yellow 3px;
+	}
+	
+}
